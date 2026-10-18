@@ -1,0 +1,16 @@
+# data, experiment outputs and model files are not part of the repository
+/data/
+/data_*/
+/results/
+/results_*/
+/logs/
+/deploy/onnx/
+/deploy/jetson_*.json
+*.pt
+*.pth
+*.onnx
+*.engine
+*.npz
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
